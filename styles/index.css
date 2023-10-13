@@ -1,27 +1,39 @@
 body {
     background: rgb(84, 209, 84);
-    padding: 50px;
 }
+/* nav */
 
+nav {
+    background:rgb(247, 182, 214);
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 /* header */
 
 header {
     max-width: 1400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    margin-top: 20px;
 }
 
 h1 {
-    color: rgb(235, 201, 8);
+    color: rgb(221, 189, 5);
     font-family: 'Rubik';
     font-style: bold;
     font-size: 90px;
-    text-align: center;
 }
 /* main */
 
-main {
-    
-}
 p {
     font-family: 'Rubik';
     font-style: bold;
@@ -49,9 +61,60 @@ p {
     color: pink;
 }
 /* buttons */
-
-button {}
-
+.buttonsection {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    border: none;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    min-height: 200px;
+}
+button:hover {
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.btnyes {
+    background: palevioletred;
+    color:rgb(14, 120, 219);
+}
+.btnyes:hover {
+    background: rgb(14, 120, 219);
+    color: palevioletred;
+}
+.btnno {
+    background: gray;
+    color:white;
+}
+.btnno:hover {
+    background: white;
+    color: gray;
+}
+.btntext {
+    font-size: 20px;
+}
 /* footer */
 
-footer {}
+footer {
+    background:rgb(247, 182, 214);
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contacttext {
+    font-size: 30px;
+    color: rgb(14, 120, 219);
+}

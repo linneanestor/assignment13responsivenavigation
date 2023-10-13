@@ -7,33 +7,58 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/b4a8eb0efe.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
+<nav>
+    <div class="topnav" id="thenav">´
+        <a href="#home">Home</a>
+        <a href="#questions">Questions</a>
+        <a href="#answers">Answers</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0); class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+</nav>
 <header>
-    <div>
+    <div id="home">
         <h1>VILL DU LEKA<span style="color:yellow">?</span></h1>
     </div>
 </header>
 <main>
-    <p class="red">VAD SKA VI LEKA?</p>
-    <p class="orange">Vi ska leka datten!</p>
-    <p class="yellow">HUR MÅNGA KAN MAN VARA?</p>
-    <p class="green">Hur många man vill!</p>
-    <p class="blue">VART ÄR DET?</p>
-    <p class="pink">På skolan!</p>
-    <p class="purple">YEEHA!</p>
+    <div id="questions">
+        <p class="red">VAD SKA VI LEKA?</p>
+        <p class="orange">Vi ska leka datten!</p>
+        <p class="yellow">HUR MÅNGA KAN MAN VARA?</p>
+        <p class="green">Hur många man vill!</p>
+        <p class="blue">VART ÄR DET?</p>
+        <p class="pink">På skolan!</p>
+        <p class="purple">YEEHA!</p>
+    </div>
 </main>
-    <button class="yes">
+<section id=answers class="buttonsection">
+    <a href="https://img.freepik.com/premium-photo/happy-cool-rabbit-funny-generative-ai_572887-97.jpg"><button class="btnyes">
         JA! <br>
-        Det ska bli jättekul!
+        <p class="btntext">Det ska bli jättekul!</p>
     </button>
-    <button class="no">
-        NEJ! <br>Jag leker inte - jag hänger.<br>
-        Att leka är barnsligt!
+    </a>
+    <a href="https://images.ctfassets.net/sfnkq8lmu5d7/7oZxV67zss1p11WN17Ttjj/e0a7f7d681d8614175d804aa21cae732/The-Wildest_Editorial_Peeved-Pups_Hero_v01.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg">
+    <button class="btnno">
+        NEJ! <br><p class="btntext">Jag leker inte - jag hänger.<br>
+        Att leka är barnsligt!</p>
     </button>
+    </a>
+</section>
 <footer>
+    <div id="contact" class="contactcard">
+        <p class="contacttext"><i class="fa-solid fa-phone" style="color: #f90185;"></i> 
+            070 111 222 33
+        <i class="fa-solid fa-envelope" style="color: #f90185;"></i>
+            komnulekervi@gmail.com
+    </div>
+    
     
 </footer>
 </body>
