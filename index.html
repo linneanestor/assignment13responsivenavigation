@@ -9,16 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/b4a8eb0efe.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
 <nav>
-    <div class="topnav" id="thenav">´
-        <a href="#home">Home</a>
-        <a href="#questions">Questions</a>
-        <a href="#answers">Answers</a>
-        <a href="#contact">Contact</a>
-        <a href="javascript:void(0); class="icon" onclick="myFunction()">
+    <div class="topnav" id="thenav">
+        <a href="#home">HOME</a>
+        <a href="#questions">QUESTIONS</a>
+        <a href="#answers">ANSWERS</a>
+        <a href="#contact">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
     </div>
 </nav>
@@ -58,8 +59,17 @@
         <i class="fa-solid fa-envelope" style="color: #f90185;"></i>
             komnulekervi@gmail.com
     </div>
-    
-    
 </footer>
 </body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("thenav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </html>
