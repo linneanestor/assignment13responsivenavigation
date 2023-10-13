@@ -1,15 +1,53 @@
 body {
     background: rgb(84, 209, 84);
+    padding: 50px;
 }
 
 /* header */
 
-header {}
+header {
+    max-width: 1400px;
+    width: 100%;
+}
 
+h1 {
+    color: rgb(235, 201, 8);
+    font-family: 'Rubik';
+    font-style: bold;
+    font-size: 90px;
+    text-align: center;
+}
 /* main */
 
-main {}
-
+main {
+    
+}
+p {
+    font-family: 'Rubik';
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.green {
+    color: greenyellow;
+}
+.blue {
+    color: rgb(14, 120, 219);
+}
+.purple {
+    color: rgb(241, 7, 241);
+}
+.yellow {
+    color: yellow;
+}.pink {
+    color: pink;
+}
 /* buttons */
 
 button {}
