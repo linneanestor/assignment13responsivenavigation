@@ -15,12 +15,13 @@
 <body>
 <nav>
     <div class="topnav" id="thenav">
-        <a href="#home">HOME</a>
+        <a href="#home" class="active">HOME</a>
         <a href="#questions">QUESTIONS</a>
         <a href="#answers">ANSWERS</a>
         <a href="#contact">CONTACT</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i></a>
+        <a class="icon" onclick="burgerMenu()">
+        <i class="fa fa-bars"></i>
+        </a>
     </div>
 </nav>
 <header>
@@ -60,16 +61,15 @@
             komnulekervi@gmail.com
     </div>
 </footer>
-</body>
 <script>
-    function myFunction() {
-        var x = document.getElementById("thenav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        }
-        else {
-            x.className = "topnav";
+    function burgerMenu() {
+        let burger = document.getElementById("thenav");
+        if (burger.className === "topnav") {
+        burger.className += " responsive";
+        } else {
+        burger.className = "topnav";
         }
     }
-</script>
+    </script>
+</body>
 </html>
